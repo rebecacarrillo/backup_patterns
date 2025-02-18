@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+*.ini
+*_config.py
+
+# Local database
+*.db
+*.sqlite3
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+logs/
